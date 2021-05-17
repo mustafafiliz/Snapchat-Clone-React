@@ -1,6 +1,16 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Installation 
+
+npm i / yarn i (You can chose one of them)
+
+# Starting
+
+npm start / yarn start (You can chose one of them)
+
+# Sass Watch
+
+npm run watch / yarn run watch (You can chose one of them)
 
 ## Available Scripts
 
