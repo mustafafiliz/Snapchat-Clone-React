@@ -1,0 +1,242 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #fefc01;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+}
+.app__body {
+  border-radius: 20px;
+}
+
+.webcamCapture {
+  position: relative;
+}
+.webcamCapture__button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  color: white;
+}
+
+.preview {
+  position: relative;
+}
+.preview__close {
+  position: absolute;
+  top: 0;
+  margin: 5px;
+  cursor: pointer;
+  color: white;
+}
+.preview__toolbarRight {
+  position: absolute;
+  right: 0;
+  margin: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.preview__toolbarRight .preview__icon {
+  font-size: 20px !important;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.preview__footer {
+  position: absolute;
+  bottom: 0;
+  right: -25px;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  padding: 7px;
+  cursor: pointer;
+}
+.preview__footer h2 {
+  font-size: 8px;
+  margin-right: 3px;
+}
+.preview__footer .preview__sendIcon {
+  font-size: 10px !important;
+}
+
+.chats {
+  position: relative;
+  height: 400px;
+  width: 250px;
+}
+.chats__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #059ee0;
+  height: 50px;
+}
+.chats__avatar {
+  width: 25px !important;
+  height: 25px !important;
+}
+.chats__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding-left: 8px;
+}
+.chats__search .chats__searchIcon {
+  color: white;
+  font-size: 13px !important;
+}
+.chats__search .chats__searchIcon:hover {
+  opacity: 0.8;
+}
+.chats__search input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  color: white;
+  flex: 1;
+}
+.chats__search input::placeholder {
+  color: white;
+  opacity: 1;
+}
+.chats__posts {
+  height: 359px;
+  background-color: white;
+  box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, 0.44);
+  margin-top: -9px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: scroll;
+}
+.chats__posts::-webkit-scrollbar {
+  display: none;
+}
+.chats__takeShot {
+  position: absolute;
+  background-color: white;
+  color: gray;
+  border-radius: 200px;
+  font-size: 40px !important;
+  cursor: pointer;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.chats__takeShot:hover {
+  opacity: 0.8;
+}
+.chats__closeIcon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+}
+.chat:hover {
+  opacity: 0.8;
+}
+.chat__info {
+  padding-left: 5px;
+  flex: 1;
+}
+.chat__info h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.chat__info p {
+  font-size: 12px;
+}
+.chat__avatar {
+  width: 35px !important;
+  height: 35px !important;
+}
+.chat__readIcon {
+  color: #ed3b55;
+}
+
+.view {
+  position: relative;
+}
+.view img {
+  cursor: pointer;
+}
+.view__timer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.login {
+  background-color: #feff00;
+  display: grid;
+  place-items: center;
+  height: 420px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.login__container {
+  display: flex;
+  flex-direction: column;
+}
+.login__container img {
+  width: 300px;
+  height: 420px;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=style.css.map */
